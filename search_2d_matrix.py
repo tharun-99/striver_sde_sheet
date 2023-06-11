@@ -1,4 +1,4 @@
-def searchMatrix(mat: [[int]], target: int) -> bool:
+def searchMatrix(mat: list(list(int)), target: int) -> bool:
     # Write your code here.
     m,n = len(mat), len(mat[0])
     top, bottom = 0, m-1
